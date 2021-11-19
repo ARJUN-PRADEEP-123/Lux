@@ -278,7 +278,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
-                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -311,7 +310,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                     InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
-                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
                 ]
                 ]
                 
@@ -343,7 +341,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                     InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
-                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
                 ]
                 ]
                 
