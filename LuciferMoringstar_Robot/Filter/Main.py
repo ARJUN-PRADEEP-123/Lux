@@ -1,5 +1,5 @@
 # (c) PR0FESS0R-99
-from Config import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS, TUTORIAL
+from Config import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS, TUTORIAL, GROUP
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 import re
@@ -277,15 +277,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [
-                [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
+               [
+                    InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,9 +310,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
-                    ]
-                    ]
+                    InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
@@ -339,9 +342,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
-                    ]
-                    ]
+                    InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=f'{GROUP}')
+                ]
+                ]
                 
                 await query.answer()
                 await client.send_cached_media(
