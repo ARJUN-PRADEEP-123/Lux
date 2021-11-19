@@ -13,29 +13,47 @@ from .Channel import (
 HELP = """
 Basic Commads
 
-/start :- check am Alive
+⚡ /start :- check am Alive
 
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+⚡ Bot Owner Can Only Acess
+
+⚡ /broadcast Replay Any Message or Media 
+
+⚡ /stats user Status
+
+⚡ /ban_user  click ban_user more info
+
+⚡ /unban_user click unban_user more info
+
+⚡ /banned_users Banned User Details
+
+⚡ /total How Many Files Added In Database
+
+⚡ /logger  Get Logs
+
+⚡ /delete Delete File From Database
+
 
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+⟿ Name         :  Lux
+
+⟿ Full Name    :  Lux Qually
+
+⟿ Developer    :  Arjun Pradeep
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+⟿ Creator      : [Arjun Pradeep](https://t.me/Arjunbots)
 
-➥ Language : Python3
+⟿ Support      : [Support my boss](https://t.me/Movies_Centre_Main)
 
-➥ Library : Pyrogram Asyncio 1.13.0
+⟿ Source       : [Lux](https://github.com/ARJUN-PRADEEP-123/Lux)
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+⟿ Lux Updates  : [Join now](https://t.me/joinchat/Tz1s9wVL7Y1jODJl)
+   
+⟿ Created for  : [Movies Centre Group](https://t.me/movies_centre_garage_lux)
+   
+⟿ Add me       : [Contact](https://t.me/Arjunbots)
+
+   
 """
